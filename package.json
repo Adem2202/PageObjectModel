@@ -1,0 +1,19 @@
+{
+  "name": "mypagemodel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe chrome tests/"
+  },
+  "author": "balu",
+  "license": "ISC",
+  "devDependencies": {
+    "testcafe": "^2.4.0"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "testcafe-reporter-allure": "^1.0.5",
+    "testcafe-reporter-allure-expanded": "^1.1.0"
+  }
+}
