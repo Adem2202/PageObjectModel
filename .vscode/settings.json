@@ -1,0 +1,6 @@
+{
+    "git.autorefresh": true,
+    "git.branchRandomName.enable": false,
+    "git.decorations.enabled": false,
+    "git.enabled": true
+}
