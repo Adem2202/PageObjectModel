@@ -40,4 +40,4 @@ class Register{
 
 export default new Register();
 
-//made some changes
+//made some changes 2
