@@ -43,7 +43,6 @@ fixture('First')
 
 test("Drop", async t => {
     await t.maximizeWindow();
-    await t.debug();
     //.debug()
 
     // Check if the "Accept Cookies" button exists before clicking it
@@ -59,7 +58,7 @@ test("Drop", async t => {
     );
 
     await t.click(hostingpage.getStarted);
-    await t.wait(80000).click(hostingpage.basicPlan);
+    await t.click(hostingpage.basicPlan);
     await t.typeText(hostingpage.domainName, 'balu.guru')
     await t.click(hostingpage.searchButton);
     await t.click(hostingpage.addCart);

@@ -39,3 +39,5 @@ class Register{
 }
 
 export default new Register();
+
+//made some changes
